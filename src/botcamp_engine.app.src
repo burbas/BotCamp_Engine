@@ -1,0 +1,12 @@
+{application, botcamp_engine,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { botcamp_engine_app, []}},
+  {env, []}
+ ]}.
